@@ -17,8 +17,8 @@ public class Base_To_Decimal {
 		{
 			int remainder=number%10;		// last digit
 			answer+=remainder*power;		// digit * power
-			power=power*b;					// power * base
-			number/=10;						// Reducing number
+			power=power*b;				// power * base
+			number/=10;				// Reducing number
 		}
 		System.out.println(answer);
 	}
